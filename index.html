@@ -1,0 +1,3685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EverPay | The Future Never Disconnects</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+💚 EverPay
+
+</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#">Technology</a></li>
+<li><a href="#">Security</a></li>
+<li><a href="#">Wallet</a></li>
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+<a href="#" class="nav-btn">
+
+Download App
+
+</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>
+
+The Future <br>
+
+Never Disconnects.
+
+</h1>
+
+<p>
+
+EverPay is a next-generation digital payment platform
+built for every situation.
+
+Whether you're online or offline,
+your money keeps moving.
+
+Secure.
+
+Reliable.
+
+Human.
+
+</p>
+
+<div class="buttons">
+
+<a href="#" class="primary">
+
+Get Started
+
+</a>
+
+<a href="#" class="secondary">
+
+Watch Demo
+
+</a>
+
+</div>
+
+<div class="trust">
+
+<div>
+
+🔒
+
+Bank-Level Security
+
+</div>
+
+<div>
+
+🌍
+
+Works Anywhere
+
+</div>
+
+<div>
+
+💚
+
+Built For Humanity
+
+</div>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="phone">
+
+<div class="top">
+
+EverPay Wallet
+
+</div>
+
+<div class="balance">
+
+₹12,450
+
+</div>
+
+<div class="status">
+
+🟢 Offline Ready
+
+</div>
+
+<button>
+
++ Add Money
+
+</button>
+
+<button>
+
+📷 Scan & Pay
+
+</button>
+
+<button>
+
+📡 Tap with NFC
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="wave"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+/* ===================================
+        EVERPAY STYLE.CSS (PART 1)
+=================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:
+    linear-gradient(135deg,#e8fff5,#eef8ff);
+
+    color:#0d2b3f;
+
+    overflow-x:hidden;
+
+}
+
+/* NAVBAR */
+
+nav{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 8%;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(18px);
+
+    z-index:1000;
+
+    border-bottom:1px solid rgba(0,0,0,.05);
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#00897B;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+}
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:#174C59;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#00A884;
+
+}
+
+.nav-btn{
+
+    text-decoration:none;
+
+    background:#009688;
+
+    color:white;
+
+    padding:13px 26px;
+
+    border-radius:50px;
+
+    transition:.4s;
+
+}
+
+.nav-btn:hover{
+
+    transform:translateY(-3px);
+
+    background:#00796B;
+
+}
+
+/* HERO */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:140px 8% 60px;
+
+}
+
+.left{
+
+    width:52%;
+
+}
+
+.left h1{
+
+    font-size:68px;
+
+    line-height:1.15;
+
+    color:#093B4A;
+
+}
+
+.left p{
+
+    margin-top:28px;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#40636d;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    margin-top:40px;
+
+}
+
+.primary{
+
+    background:#00A884;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:16px 35px;
+
+    border-radius:50px;
+
+    transition:.3s;
+
+}
+
+.primary:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 35px rgba(0,168,132,.35);
+
+}
+
+.secondary{
+
+    text-decoration:none;
+
+    border:2px solid #00A884;
+
+    color:#00A884;
+
+    padding:16px 35px;
+
+    border-radius:50px;
+
+    transition:.3s;
+
+}
+
+.secondary:hover{
+
+    background:#00A884;
+
+    color:white;
+
+}
+
+/* TRUST */
+
+.trust{
+
+    margin-top:55px;
+
+    display:flex;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.trust div{
+
+    background:white;
+
+    padding:15px 22px;
+
+    border-radius:15px;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.06);
+
+    font-weight:600;
+
+}
+
+/* PHONE */
+
+.right{
+
+    width:40%;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.phone{
+
+    width:340px;
+
+    background:white;
+
+    border-radius:35px;
+
+    padding:28px;
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.12);
+
+    animation:float 4s ease-in-out infinite;
+
+}
+
+.top{
+
+    color:#00897B;
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+.balance{
+
+    margin-top:30px;
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:#093B4A;
+
+}
+
+.status{
+
+    color:#13A66B;
+
+    margin-top:12px;
+
+    font-weight:600;
+
+}
+
+.phone button{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-top:18px;
+
+    border:none;
+
+    border-radius:16px;
+
+    cursor:pointer;
+
+    background:linear-gradient(90deg,#00C6A7,#3DA5FF);
+
+    color:white;
+
+    font-size:17px;
+
+    transition:.35s;
+
+}
+
+.phone button:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* FLOATING ANIMATION */
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* WAVE */
+
+.wave{
+
+    height:120px;
+
+    background:linear-gradient(90deg,#00C6A7,#4FC3F7);
+
+    clip-path:ellipse(75% 100% at 50% 100%);
+
+}
+/* ===================================
+        EVERPAY STYLE.CSS (PART 2)
+=================================== */
+
+/* Animated Background */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    width:700px;
+
+    height:700px;
+
+    background:radial-gradient(circle,#4fc3f7 0%,transparent 70%);
+
+    top:-250px;
+
+    right:-250px;
+
+    opacity:.20;
+
+    z-index:-2;
+
+    animation:rotateEarth 30s linear infinite;
+
+}
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    width:600px;
+
+    height:600px;
+
+    background:radial-gradient(circle,#00c896 0%,transparent 70%);
+
+    bottom:-250px;
+
+    left:-250px;
+
+    opacity:.18;
+
+    z-index:-2;
+
+    animation:rotateEarthReverse 35s linear infinite;
+
+}
+
+@keyframes rotateEarth{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+@keyframes rotateEarthReverse{
+
+    from{
+
+        transform:rotate(360deg);
+
+    }
+
+    to{
+
+        transform:rotate(0deg);
+
+    }
+
+}
+
+/* Phone Glow */
+
+.phone{
+
+    position:relative;
+
+}
+
+.phone::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:430px;
+
+    height:430px;
+
+    background:radial-gradient(circle,
+    rgba(0,198,167,.35),
+    transparent 70%);
+
+    top:-50px;
+
+    left:-45px;
+
+    z-index:-1;
+
+    animation:pulseGlow 5s infinite;
+
+}
+
+@keyframes pulseGlow{
+
+    0%{
+
+        transform:scale(1);
+
+        opacity:.35;
+
+    }
+
+    50%{
+
+        transform:scale(1.08);
+
+        opacity:.55;
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+        opacity:.35;
+
+    }
+
+}
+
+/* Wallet Card */
+
+.wallet-card{
+
+    margin-top:28px;
+
+    border-radius:22px;
+
+    padding:24px;
+
+    background:linear-gradient(
+    135deg,
+    #00897B,
+    #29B6F6);
+
+    color:white;
+
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.18);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.wallet-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+
+    height:220px;
+
+    background:rgba(255,255,255,.12);
+
+    border-radius:50%;
+
+    top:-120px;
+
+    right:-80px;
+
+}
+
+.wallet-title{
+
+    font-size:18px;
+
+    opacity:.9;
+
+}
+
+.wallet-amount{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-top:18px;
+
+}
+
+.wallet-status{
+
+    margin-top:12px;
+
+    color:#C8FFE5;
+
+    font-weight:600;
+
+}
+
+.chip{
+
+    width:60px;
+
+    height:45px;
+
+    border-radius:12px;
+
+    background:gold;
+
+    margin-top:20px;
+
+}
+
+/* Statistics */
+
+.stats{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    margin:100px 8%;
+
+}
+
+.stat{
+
+    width:240px;
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:
+    0 18px 35px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.stat:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stat h2{
+
+    color:#009688;
+
+    font-size:40px;
+
+}
+
+.stat p{
+
+    margin-top:12px;
+
+    color:#666;
+
+}
+
+/* Features */
+
+.features{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+    padding:100px 8%;
+
+}
+
+.feature{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:35px;
+
+    transition:.4s;
+
+    box-shadow:
+    0 18px 35px rgba(0,0,0,.08);
+
+}
+
+.feature:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.feature i{
+
+    font-size:45px;
+
+    color:#00A884;
+
+}
+
+.feature h3{
+
+    margin-top:20px;
+
+}
+
+.feature p{
+
+    margin-top:15px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/* Footer */
+
+footer{
+
+    background:#0b2538;
+
+    color:white;
+
+    padding:70px 8%;
+
+    text-align:center;
+
+}
+
+footer h2{
+
+    font-size:34px;
+
+}
+
+footer p{
+
+    margin-top:15px;
+
+    color:#cfd8dc;
+
+}
+
+footer a{
+
+    color:#4FC3F7;
+
+    text-decoration:none;
+
+}
+<!-- =========================
+        FEATURES
+========================= -->
+
+<section class="features">
+
+<div class="feature">
+
+<i class="fas fa-wifi"></i>
+
+<h3>Offline Payments</h3>
+
+<p>
+
+Pay even when the internet disappears.
+Your digital wallet securely stores
+offline balance and syncs automatically
+when you're back online.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-qrcode"></i>
+
+<h3>QR Payments</h3>
+
+<p>
+
+Instantly scan QR codes using
+your camera with lightning-fast
+transactions anywhere.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-mobile-screen-button"></i>
+
+<h3>NFC Tap</h3>
+
+<p>
+
+Tap your phone to make payments
+within seconds using secure NFC
+technology.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-shield-halved"></i>
+
+<h3>Bank-Level Security</h3>
+
+<p>
+
+Protected with encryption,
+biometric verification and
+real-time fraud detection.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- =========================
+        STATS
+========================= -->
+
+<section class="stats">
+
+<div class="stat">
+
+<h2>99.99%</h2>
+
+<p>Transaction Success</p>
+
+</div>
+
+<div class="stat">
+
+<h2>24/7</h2>
+
+<p>Offline Wallet</p>
+
+</div>
+
+<div class="stat">
+
+<h2>256-bit</h2>
+
+<p>Encryption</p>
+
+</div>
+
+<div class="stat">
+
+<h2>0 sec</h2>
+
+<p>Internet Waiting</p>
+
+</div>
+
+</section>
+/* ==========================
+      Animated Earth
+========================== */
+
+.earth-container{
+
+    position:relative;
+
+    width:300px;
+    height:300px;
+
+    margin:auto;
+
+}
+
+.earth{
+
+    width:220px;
+    height:220px;
+
+    position:absolute;
+
+    top:40px;
+    left:40px;
+
+    border-radius:50%;
+
+    background:url("https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg");
+
+    background-size:cover;
+
+    box-shadow:
+    0 0 40px rgba(0,200,255,.7);
+
+    animation:
+
+    spinEarth 25s linear infinite;
+
+}
+
+@keyframes spinEarth{
+
+from{
+
+background-position:0 0;
+
+}
+
+to{
+
+background-position:800px 0;
+
+}
+
+}
+
+/* Orbit */
+
+.orbit{
+
+position:absolute;
+
+border:2px solid rgba(0,255,255,.25);
+
+border-radius:50%;
+
+}
+
+.orbit1{
+
+width:280px;
+height:280px;
+
+top:10px;
+left:10px;
+
+animation:rotateOrbit 12s linear infinite;
+
+}
+
+.orbit2{
+
+width:320px;
+height:320px;
+
+top:-10px;
+left:-10px;
+
+animation:rotateOrbitReverse 18s linear infinite;
+
+}
+
+@keyframes rotateOrbit{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+@keyframes rotateOrbitReverse{
+
+from{
+
+transform:rotate(360deg);
+
+}
+
+to{
+
+transform:rotate(0deg);
+
+}
+
+}
+<div class="earth-container">
+
+    <div class="orbit orbit1"></div>
+    <div class="orbit orbit2"></div>
+
+    <div class="earth"></div>
+
+</div>
+<div class="wallet-card">
+
+    <div class="wallet-top">
+
+        <h3>EverPay Wallet</h3>
+
+        <span>•••</span>
+
+    </div>
+
+    <div class="chip"></div>
+
+    <p class="wallet-text">
+        Available Balance
+    </p>
+
+    <h1>₹12,450.00</h1>
+
+    <div class="wallet-bottom">
+
+        <span class="online">
+
+            ● Offline Ready
+
+        </span>
+
+        <span class="visa">
+
+            EVERPAY
+
+        </span>
+
+    </div>
+
+</div>
+/* ==========================
+      Premium Wallet
+========================== */
+
+.wallet-card{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:28px;
+
+    border-radius:28px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    color:white;
+
+    background:
+    linear-gradient(
+    135deg,
+    rgba(0,150,255,.55),
+    rgba(0,200,150,.45));
+
+    backdrop-filter:blur(25px);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    box-shadow:
+    0 20px 60px rgba(0,180,255,.30);
+
+}
+
+/* Glass Reflection */
+
+.wallet-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+
+    height:220px;
+
+    background:
+
+    rgba(255,255,255,.10);
+
+    border-radius:50%;
+
+    top:-120px;
+
+    right:-60px;
+
+}
+
+/* Top */
+
+.wallet-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.wallet-top h3{
+
+    font-size:24px;
+
+}
+
+.wallet-top span{
+
+    font-size:30px;
+
+}
+
+/* Chip */
+
+.chip{
+
+    width:60px;
+
+    height:42px;
+
+    margin-top:25px;
+
+    border-radius:12px;
+
+    background:gold;
+
+}
+
+/* Balance */
+
+.wallet-text{
+
+    margin-top:20px;
+
+    opacity:.85;
+
+}
+
+.wallet-card h1{
+
+    font-size:42px;
+
+    margin-top:10px;
+
+}
+
+/* Bottom */
+
+.wallet-bottom{
+
+    margin-top:28px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.online{
+
+    background:rgba(0,255,120,.15);
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    color:#baffd5;
+
+}
+
+.visa{
+
+    letter-spacing:3px;
+
+    font-weight:bold;
+
+}
+<div class="phone">
+
+    <div class="screen-glow"></div>
+
+    <div class="phone-notch"></div>
+
+    <div class="phone-content">
+
+        <h2>EverPay</h2>
+
+        <p class="small">Total Balance</p>
+
+        <h1>₹12,450</h1>
+
+        <span class="badge">🟢 Offline Ready</span>
+
+        <div class="quick-buttons">
+
+            <button>＋</button>
+            <button>📷</button>
+            <button>📡</button>
+            <button>➜</button>
+
+        </div>
+
+    </div>
+
+</div>
+/* ==========================
+      Interactive Phone
+========================== */
+
+.phone{
+
+    position:relative;
+
+    width:330px;
+
+    height:650px;
+
+    border-radius:45px;
+
+    background:#091626;
+
+    overflow:hidden;
+
+    transform-style:preserve-3d;
+
+    transition:.4s;
+
+}
+
+/* Hover Tilt */
+
+.phone:hover{
+
+    transform:
+
+    rotateY(-8deg)
+
+    rotateX(8deg)
+
+    scale(1.03);
+
+}
+
+/* Screen Glow */
+
+.screen-glow{
+
+    position:absolute;
+
+    width:450px;
+
+    height:450px;
+
+    background:
+
+    radial-gradient(circle,
+
+    rgba(0,255,200,.25),
+
+    transparent 70%);
+
+    left:-60px;
+
+    top:-100px;
+
+}
+
+/* Notch */
+
+.phone-notch{
+
+    width:140px;
+
+    height:28px;
+
+    background:black;
+
+    border-radius:30px;
+
+    margin:18px auto;
+
+}
+
+/* Content */
+
+.phone-content{
+
+    padding:28px;
+
+    color:white;
+
+}
+
+.phone-content h2{
+
+    color:#4EF6D2;
+
+}
+
+.small{
+
+    margin-top:30px;
+
+    opacity:.7;
+
+}
+
+.phone-content h1{
+
+    margin-top:10px;
+
+    font-size:42px;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    background:#163f2e;
+
+    color:#9fffbe;
+
+}
+
+/* Buttons */
+
+.quick-buttons{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(4,1fr);
+
+    gap:15px;
+
+    margin-top:40px;
+
+}
+
+.quick-buttons button{
+
+    height:70px;
+
+    border-radius:20px;
+
+    border:none;
+
+    background:#14283d;
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.quick-buttons button:hover{
+
+    background:#00B894;
+
+    transform:translateY(-6px);
+
+}
+.phone::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:260px;
+
+    height:30px;
+
+    left:35px;
+
+    bottom:-15px;
+
+    border-radius:50%;
+
+    background:
+
+    rgba(0,220,255,.45);
+
+    filter:blur(18px);
+
+}
+<!-- ==========================
+        LIVE DASHBOARD
+========================== -->
+
+<section class="dashboard">
+
+    <h2>Live Dashboard</h2>
+
+    <div class="dashboard-grid">
+
+        <div class="dashboard-card">
+
+            <h3>Today's Spending</h3>
+
+            <h1>₹2,150</h1>
+
+            <span class="up">▲ +14% Today</span>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>Transactions</h3>
+
+            <h1>128</h1>
+
+            <span class="online">Synced Successfully</span>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>Offline Wallet</h3>
+
+            <h1>₹4,800</h1>
+
+            <span class="offline">Ready to Spend</span>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>Success Rate</h3>
+
+            <h1>99.98%</h1>
+
+            <span class="secure">Protected</span>
+
+        </div>
+
+    </div>
+
+</section>
+/* ==========================
+      Dashboard
+========================== */
+
+.dashboard{
+
+    padding:100px 8%;
+
+    text-align:center;
+
+}
+
+.dashboard h2{
+
+    font-size:42px;
+
+    margin-bottom:50px;
+
+    color:white;
+
+}
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.dashboard-card{
+
+    padding:35px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    transition:.35s;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 60px rgba(0,200,150,.25);
+
+}
+
+.dashboard-card h3{
+
+    color:#b8dfff;
+
+    margin-bottom:15px;
+
+}
+
+.dashboard-card h1{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+    color:white;
+
+}
+
+.up{
+
+    color:#67ff92;
+
+    font-weight:bold;
+
+}
+
+.offline{
+
+    color:#4EF6D2;
+
+    font-weight:bold;
+
+}
+
+.secure{
+
+    color:#4FC3F7;
+
+    font-weight:bold;
+
+}
+99.98%
+<div class="progress">
+
+    <div class="progress-fill"></div>
+
+</div>
+/* Progress Bar */
+
+.progress{
+
+    width:100%;
+
+    height:12px;
+
+    background:#163347;
+
+    border-radius:20px;
+
+    margin-top:20px;
+
+    overflow:hidden;
+
+}
+
+.progress-fill{
+
+    width:99%;
+
+    height:100%;
+
+    border-radius:20px;
+
+    background:linear-gradient(
+    90deg,
+    #00C896,
+    #42A5F5);
+
+    animation:loading 2.5s ease;
+
+}
+
+@keyframes loading{
+
+from{
+
+width:0;
+
+}
+
+to{
+
+width:99%;
+
+}
+
+}
+<!-- ==========================
+        TESTIMONIALS
+========================== -->
+
+<section class="testimonials">
+
+    <h2>Trusted by Early Supporters</h2>
+
+    <p class="subtitle">
+        Building the future of payments together.
+    </p>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+
+            <div class="avatar">A</div>
+
+            <h3>Aarav Sharma</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+
+            "EverPay's offline wallet could completely change
+            how digital payments work during poor network."
+
+            </p>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <div class="avatar">N</div>
+
+            <h3>Neha Kapoor</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+
+            "Clean interface, premium experience and an
+            amazing vision for the future."
+
+            </p>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <div class="avatar">R</div>
+
+            <h3>Rahul Mehta</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+
+            "Finally a payment platform designed around
+            reliability instead of internet availability."
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+/* ==========================
+      Testimonials
+========================== */
+
+.testimonials{
+
+    padding:120px 8%;
+
+    text-align:center;
+
+}
+
+.testimonials h2{
+
+    font-size:48px;
+
+    color:#093B4A;
+
+}
+
+.subtitle{
+
+    margin-top:15px;
+
+    color:#6c7d88;
+
+    font-size:18px;
+
+}
+
+.testimonial-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:35px;
+
+    margin-top:70px;
+
+}
+
+.testimonial-card{
+
+    width:320px;
+
+    padding:35px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.65);
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.testimonial-card:hover{
+
+    transform:
+    translateY(-12px)
+    scale(1.03);
+
+}
+
+.avatar{
+
+    width:75px;
+
+    height:75px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:
+    linear-gradient(135deg,#00C896,#42A5F5);
+
+    color:white;
+
+    font-size:32px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+}
+
+.testimonial-card h3{
+
+    margin-top:20px;
+
+}
+
+.testimonial-card span{
+
+    display:block;
+
+    margin:12px 0;
+
+    color:#FFD54F;
+
+    font-size:22px;
+
+}
+
+.testimonial-card p{
+
+    color:#5c6f7a;
+
+    line-height:1.8;
+
+}
+.testimonial-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    border-radius:30px;
+
+    padding:1px;
+
+    background:
+
+    linear-gradient(
+    135deg,
+    rgba(0,200,150,.3),
+    rgba(0,150,255,.3));
+
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+
+    -webkit-mask-composite:xor;
+
+}
+<!-- ==========================
+        HUMANITY SECTION
+========================== -->
+
+<section class="humanity">
+
+<div class="human-left">
+
+<div class="globe">
+
+    🌍
+
+</div>
+
+</div>
+
+<div class="human-right">
+
+<h2>
+
+Technology for Every Human.
+
+</h2>
+
+<p>
+
+At EverPay, we believe no one should lose the ability
+to pay simply because the internet disappears.
+
+Whether you're travelling,
+at a concert,
+in a rural village,
+or during an emergency,
+
+your money should always be with you.
+
+EverPay combines trust, innovation and humanity
+to create a future where digital payments never stop.
+
+</p>
+
+<a href="#" class="learn-btn">
+
+Learn More →
+
+</a>
+
+</div>
+
+</section>
+/* ==========================
+      Humanity Section
+========================== */
+
+.humanity{
+
+padding:140px 8%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:80px;
+
+flex-wrap:wrap;
+
+}
+
+.human-left{
+
+flex:1;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.human-right{
+
+flex:1;
+
+}
+
+.human-right h2{
+
+font-size:54px;
+
+color:#063B4F;
+
+margin-bottom:25px;
+
+}
+
+.human-right p{
+
+font-size:19px;
+
+line-height:2;
+
+color:#57707d;
+
+}
+
+.learn-btn{
+
+display:inline-block;
+
+margin-top:40px;
+
+padding:16px 36px;
+
+border-radius:50px;
+
+background:#009688;
+
+color:white;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+.learn-btn:hover{
+
+transform:translateY(-6px);
+
+background:#00796B;
+
+}
+/* Globe */
+
+.globe{
+
+width:300px;
+
+height:300px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:140px;
+
+background:
+
+linear-gradient(
+
+135deg,
+
+#1DE9B6,
+
+#29B6F6);
+
+box-shadow:
+
+0 0 80px rgba(0,200,150,.4);
+
+animation:
+
+floatEarth 5s ease-in-out infinite,
+
+rotateGlobe 18s linear infinite;
+
+}
+
+@keyframes floatEarth{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes rotateGlobe{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
+.humanity::before{
+
+content:"";
+
+position:absolute;
+
+width:240px;
+
+height:240px;
+
+background:
+
+rgba(0,255,170,.10);
+
+border-radius:50%;
+
+left:8%;
+
+filter:blur(40px);
+
+animation:moveBlob 8s infinite;
+
+}
+
+.humanity::after{
+
+content:"";
+
+position:absolute;
+
+width:180px;
+
+height:180px;
+
+background:
+
+rgba(0,180,255,.12);
+
+border-radius:50%;
+
+right:10%;
+
+bottom:40px;
+
+filter:blur(35px);
+
+animation:moveBlob2 10s infinite;
+
+}
+
+@keyframes moveBlob{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-35px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes moveBlob2{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(30px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+<section class="mission">
+
+<h2>Our Mission</h2>
+
+<div class="mission-grid">
+
+<div class="mission-card">
+
+<h3>🌍 Accessibility</h3>
+
+<p>Payments should work for everyone, everywhere.</p>
+
+</div>
+
+<div class="mission-card">
+
+<h3>🔒 Trust</h3>
+
+<p>Every transaction protected with advanced security.</p>
+
+</div>
+
+<div class="mission-card">
+
+<h3>⚡ Innovation</h3>
+
+<p>Building payment experiences beyond today's technology.</p>
+
+</div>
+
+</div>
+
+</section>
+.mission{
+
+padding:120px 8%;
+
+text-align:center;
+
+}
+
+.mission h2{
+
+font-size:46px;
+
+margin-bottom:60px;
+
+color:#093B4A;
+
+}
+
+.mission-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+}
+
+.mission-card{
+
+padding:35px;
+
+background:white;
+
+border-radius:25px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.mission-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 50px rgba(0,200,150,.2);
+
+}
+
+.mission-card h3{
+
+margin-bottom:20px;
+
+color:#009688;
+
+}
+<!-- ==========================
+        QR SCAN
+========================== -->
+
+<section class="scan-section">
+
+    <h2>Scan & Pay</h2>
+
+    <p>
+        Scan any QR code and make payments instantly.
+    </p>
+
+    <div class="scanner">
+
+        <div class="scanner-box">
+
+            <div class="scan-line"></div>
+
+            <div class="corner tl"></div>
+            <div class="corner tr"></div>
+            <div class="corner bl"></div>
+            <div class="corner br"></div>
+
+        </div>
+
+    </div>
+
+    <button class="scan-btn">
+
+        📷 Open Camera
+
+    </button>
+
+</section>
+/* ==========================
+        QR Scanner
+========================== */
+
+.scan-section{
+
+padding:120px 8%;
+
+text-align:center;
+
+}
+
+.scanner{
+
+display:flex;
+
+justify-content:center;
+
+margin:50px 0;
+
+}
+
+.scanner-box{
+
+width:260px;
+
+height:260px;
+
+border:4px solid #00C896;
+
+border-radius:20px;
+
+position:relative;
+
+overflow:hidden;
+
+background:#091626;
+
+}
+
+.scan-line{
+
+position:absolute;
+
+width:100%;
+
+height:4px;
+
+background:#00FFD5;
+
+animation:scan 2s infinite;
+
+}
+
+@keyframes scan{
+
+0%{
+
+top:0;
+
+}
+
+100%{
+
+top:250px;
+
+}
+
+}
+
+.corner{
+
+width:30px;
+
+height:30px;
+
+position:absolute;
+
+border:4px solid #00FFD5;
+
+}
+
+.tl{
+
+top:0;
+
+left:0;
+
+border-right:none;
+
+border-bottom:none;
+
+}
+
+.tr{
+
+top:0;
+
+right:0;
+
+border-left:none;
+
+border-bottom:none;
+
+}
+
+.bl{
+
+bottom:0;
+
+left:0;
+
+border-right:none;
+
+border-top:none;
+
+}
+
+.br{
+
+bottom:0;
+
+right:0;
+
+border-left:none;
+
+border-top:none;
+
+}
+
+.scan-btn{
+
+margin-top:30px;
+
+padding:15px 35px;
+
+border:none;
+
+border-radius:40px;
+
+background:#00A884;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+<section class="nfc">
+
+<h2>Tap with NFC</h2>
+
+<p>
+
+Just tap your phone to complete payments.
+
+</p>
+
+<div class="nfc-circle">
+
+📱
+
+</div>
+
+<button>
+
+Try Demo
+
+</button>
+
+</section>.nfc{
+
+padding:120px 8%;
+
+text-align:center;
+
+}
+
+.nfc-circle{
+
+width:220px;
+
+height:220px;
+
+margin:40px auto;
+
+border-radius:50%;
+
+background:
+
+linear-gradient(
+135deg,
+#00C896,
+#42A5F5);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:90px;
+
+animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.08);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
+
+.nfc button{
+
+padding:15px 40px;
+
+border:none;
+
+border-radius:40px;
+
+background:#009688;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+<!-- ==========================
+        OFFLINE WALLET
+========================== -->
+
+<section class="offline-wallet">
+
+    <h2>Offline Wallet</h2>
+
+    <p>
+        Store digital cash securely and continue making
+        payments even without an internet connection.
+    </p>
+
+    <div class="offline-card">
+
+        <div class="signal">
+            📶
+        </div>
+
+        <h3>Internet Status</h3>
+
+        <span class="status offline">
+            ● Offline
+        </span>
+
+        <h1>₹5,250</h1>
+
+        <p>Available for Offline Payments</p>
+
+        <button>Pay Now</button>
+
+    </div>
+
+</section>
+<!-- ==========================
+        TRANSACTIONS
+========================== -->
+
+<section class="transactions">
+
+<h2>Recent Transactions</h2>
+
+<div class="transaction-list">
+
+<div class="transaction">
+
+<div>
+
+<h3>Starbucks</h3>
+
+<p>Coffee Purchase</p>
+
+</div>
+
+<span>- ₹320</span>
+
+</div>
+
+<div class="transaction">
+
+<div>
+
+<h3>Uber</h3>
+
+<p>Ride Payment</p>
+
+</div>
+
+<span>- ₹540</span>
+
+</div>
+
+<div class="transaction">
+
+<div>
+
+<h3>Amazon</h3>
+
+<p>Online Shopping</p>
+
+</div>
+
+<span>- ₹2,150</span>
+
+</div>
+
+<div class="transaction">
+
+<div>
+
+<h3>Money Added</h3>
+
+<p>From Bank Account</p>
+
+</div>
+
+<span class="credit">+ ₹5,000</span>
+
+</div>
+
+</div>
+
+</section>
+<!-- ==========================
+        DARK MODE
+========================== -->
+
+<section class="theme">
+
+<h2>Appearance</h2>
+
+<p>
+
+Switch between Light and Dark Mode.
+
+</p>
+
+<label class="switch">
+
+<input type="checkbox" id="darkToggle">
+
+<span class="slider"></span>
+
+</label>
+
+</section>
+<!-- ==========================
+            FAQ
+========================== -->
+
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-box">
+
+<h3>Can EverPay work without internet?</h3>
+
+<p>
+
+Yes. EverPay is designed to support secure
+offline wallet functionality and sync later.
+
+</p>
+
+</div>
+
+<div class="faq-box">
+
+<h3>Is my money secure?</h3>
+
+<p>
+
+All wallet information is encrypted with
+bank-grade security.
+
+</p>
+
+</div>
+
+<div class="faq-box">
+
+<h3>Does EverPay support NFC?</h3>
+
+<p>
+
+Yes.
+Tap-to-pay using NFC is part of the future vision.
+
+</p>
+
+</div>
+
+</section>
+<!-- ==========================
+            FOOTER
+========================== -->
+
+<footer>
+
+<h2>EverPay</h2>
+
+<p>
+
+The Future Never Disconnects.
+
+</p>
+
+<div class="footer-links">
+
+<a href="#">Home</a>
+
+<a href="#">Technology</a>
+
+<a href="#">Security</a>
+
+<a href="#">Contact</a>
+
+<a href="#">Privacy</a>
+
+</div>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-x-twitter"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 EverPay. All Rights Reserved.
+
+</p>
+
+</footer>
+<!-- ==========================
+        LOGIN
+========================== -->
+
+<section class="login-page">
+
+<h2>Welcome Back</h2>
+
+<p>
+
+Sign in securely to your EverPay account.
+
+</p>
+
+<div class="login-card">
+
+<input
+type="email"
+placeholder="Email Address">
+
+<input
+type="password"
+placeholder="Password">
+
+<button>
+
+Login
+
+</button>
+
+<p>
+
+Forgot Password?
+
+</p>
+
+</div>
+
+</section>
+<!-- ==========================
+        SIGN UP
+========================== -->
+
+<section class="signup-page">
+
+<h2>Create Account</h2>
+
+<p>
+
+Join the future of digital payments.
+
+</p>
+
+<div class="signup-card">
+
+<input
+type="text"
+placeholder="Full Name">
+
+<input
+type="email"
+placeholder="Email">
+
+<input
+type="password"
+placeholder="Password">
+
+<input
+type="password"
+placeholder="Confirm Password">
+
+<button>
+
+Create Account
+
+</button>
+
+</div>
+
+</section>
+<!-- ==========================
+      WALLET DETAILS
+========================== -->
+
+<section class="wallet-details">
+
+<h2>Your Wallet</h2>
+
+<div class="wallet-grid">
+
+<div class="wallet-box">
+
+<h3>Total Balance</h3>
+
+<h1>₹12,450</h1>
+
+</div>
+
+<div class="wallet-box">
+
+<h3>Offline Balance</h3>
+
+<h1>₹5,250</h1>
+
+</div>
+
+<div class="wallet-box">
+
+<h3>Reward Points</h3>
+
+<h1>2,350</h1>
+
+</div>
+
+<div class="wallet-box">
+
+<h3>Monthly Savings</h3>
+
+<h1>₹1,250</h1>
+
+</div>
+
+</div>
+
+</section>
+<!-- ==========================
+        SEND MONEY
+========================== -->
+
+<section class="send-money">
+
+<h2>Send Money</h2>
+
+<div class="money-card">
+
+<input
+type="text"
+placeholder="Recipient">
+
+<input
+type="number"
+placeholder="Amount">
+
+<button>
+
+Send Payment
+
+</button>
+
+</div>
+
+</section>
+<!-- ==========================
+        ADD MONEY
+========================== -->
+
+<section class="add-money">
+
+<h2>Add Money</h2>
+
+<div class="money-card">
+
+<input
+type="number"
+placeholder="Enter Amount">
+
+<button>
+
+Add to Wallet
+
+</button>
+
+</div>
+
+</section>
+<!-- ==========================
+      NOTIFICATIONS
+========================== -->
+
+<section class="notifications">
+
+<h2>Notifications</h2>
+
+<div class="notification">
+
+✅ ₹500 added successfully.
+
+</div>
+
+<div class="notification">
+
+📷 QR Payment Successful.
+
+</div>
+
+<div class="notification">
+
+🔒 Login from New Device.
+
+</div>
+
+<div class="notification">
+
+📡 Offline Wallet Synced.
+
+</div>
+
+</section>
+<!-- ==========================
+        PROFILE
+========================== -->
+
+<section class="profile">
+
+<div class="profile-card">
+
+<img
+src="https://i.pravatar.cc/150?img=12"
+alt="Profile">
+
+<h2>Navya</h2>
+
+<p>
+
+EverPay Premium Member
+
+</p>
+
+<button>
+
+Edit Profile
+
+</button>
+
+</div>
+
+</section>
+<!-- ==========================
+        FINAL CTA
+========================== -->
+
+<section class="final-cta">
+
+    <div class="cta-box">
+
+        <h2>
+            Even if the Internet disappears,
+            <br>
+            your money shouldn't.
+        </h2>
+
+        <p>
+
+            EverPay is building the future of digital payments—
+            secure, reliable, and always ready when you need it.
+
+        </p>
+
+        <a href="#" class="cta-btn">
+
+            Join the Future
+
+        </a>
+
+    </div>
+
+</section>
+/* ==========================
+      Final Call To Action
+========================== */
+
+.final-cta{
+
+    padding:140px 8%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.cta-box{
+
+    width:100%;
+
+    max-width:1100px;
+
+    padding:70px;
+
+    text-align:center;
+
+    border-radius:35px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #00897B,
+    #1E88E5);
+
+    color:white;
+
+    position:relative;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.18);
+
+}
+
+/* Glowing circles */
+
+.cta-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    background:rgba(255,255,255,.12);
+
+    border-radius:50%;
+
+    top:-160px;
+
+    right:-80px;
+
+}
+
+.cta-box::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:240px;
+
+    height:240px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:50%;
+
+    bottom:-120px;
+
+    left:-60px;
+
+}
+
+.cta-box h2{
+
+    font-size:54px;
+
+    line-height:1.3;
+
+    margin-bottom:25px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta-box p{
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    max-width:760px;
+
+    margin:auto;
+
+    opacity:.95;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta-btn{
+
+    display:inline-block;
+
+    margin-top:45px;
+
+    padding:18px 45px;
+
+    border-radius:50px;
+
+    background:white;
+
+    color:#00897B;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.cta-btn:hover{
+
+    transform:translateY(-6px);
+
+    background:#F5F5F5;
+
+<!--=====================================
+        EVERPAY FINAL HERO
+======================================-->
+
+<section class="future-section">
+
+    <div class="future-content">
+
+        <p class="future-top">
+
+            THE NEXT GENERATION
+
+        </p>
+
+        <p class="future-top">
+
+            OF DIGITAL PAYMENTS
+
+        </p>
+
+        <h1>
+
+            STARTS HERE.
+
+        </h1>
+
+        <div class="future-line"></div>
+
+        <h2>
+
+            Powered by Trust.
+
+        </h2>
+
+        <h2>
+
+            Designed for Everyone.
+
+        </h2>
+
+        <a href="#" class="future-btn">
+
+            Join EverPay
+
+        </a>
+
+        <h3>
+
+            EVERPAY
+
+        </h3>
+
+    </div>
+
+</section>
+<!-- =====================================
+         EVERPAY FINAL VISION
+====================================== -->
+
+<section class="future-section">
+
+    <!-- Background Earth -->
+
+    <div class="earth-bg">
+
+        <div class="earth-glow"></div>
+
+        <div class="earth-circle">
+
+            🌍
+
+        </div>
+
+    </div>
+
+    <!-- Floating Particles -->
+
+    <div class="particle p1"></div>
+    <div class="particle p2"></div>
+    <div class="particle p3"></div>
+    <div class="particle p4"></div>
+    <div class="particle p5"></div>
+    <div class="particle p6"></div>
+
+    <!-- Main Content -->
+
+    <div class="future-content">
+
+        <p class="future-small">
+
+            THE NEXT GENERATION
+
+        </p>
+
+        <p class="future-small">
+
+            OF DIGITAL PAYMENTS
+
+        </p>
+
+        <h1 class="future-title">
+
+            STARTS HERE.
+
+        </h1>
+
+        <div class="future-divider"></div>
+
+        <h2>
+
+            Powered by Trust.
+
+        </h2>
+
+        <h2>
+
+            Designed for Everyone.
+
+        </h2>
+
+        <a href="#" class="future-button">
+
+            Join EverPay
+
+        </a>
+
+        <div class="future-logo">
+
+            EVERPAY
+
+        </div>
+
+    </div>
+
+</section>
+
+/*=====================================
+        EVERPAY FINAL HERO
+======================================*/
+
+.future-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:170px 8%;
+
+    background:
+    linear-gradient(
+    135deg,
+    #001E2F,
+    #005F73,
+    #00A884);
+
+    text-align:center;
+
+    color:white;
+
+}
+
+/* Animated Background */
+
+.future-section::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:550px;
+
+    height:550px;
+
+    background:
+    radial-gradient(circle,
+    rgba(255,255,255,.15),
+    transparent);
+
+    top:-220px;
+
+    left:-180px;
+
+    border-radius:50%;
+
+    animation:moveGlow 8s infinite;
+
+}
+
+.future-section::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+
+    height:420px;
+
+    background:
+    radial-gradient(circle,
+    rgba(0,255,255,.15),
+    transparent);
+
+    bottom:-180px;
+
+    right:-120px;
+
+    border-radius:50%;
+
+    animation:moveGlow2 9s infinite;
+
+}
+
+.future-content{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.future-top{
+
+    font-size:24px;
+
+    letter-spacing:8px;
+
+    font-weight:500;
+
+    opacity:.85;
+
+}
+
+.future-content h1{
+
+    margin-top:25px;
+
+    font-size:90px;
+
+    letter-spacing:5px;
+
+    line-height:1;
+
+    font-weight:700;
+
+}
+
+.future-line{
+
+    width:140px;
+
+    height:5px;
+
+    background:white;
+
+    margin:40px auto;
+
+    border-radius:50px;
+
+}
+
+.future-content h2{
+
+    font-size:34px;
+
+    margin-top:18px;
+
+    font-weight:400;
+
+}
+
+.future-btn{
+
+    display:inline-block;
+
+    margin-top:55px;
+
+    padding:18px 50px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    background:white;
+
+    color:#00897B;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    transition:.4s;
+
+}
+
+.future-btn:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 18px 40px rgba(255,255,255,.35);
+
+}
+
+.future-content h3{
+
+    margin-top:80px;
+
+    font-size:72px;
+
+    letter-spacing:14px;
+
+    color:rgba(255,255,255,.18);
+
+}
+
+/* Animations */
+
+@keyframes moveGlow{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(35px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes moveGlow2{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-35px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
